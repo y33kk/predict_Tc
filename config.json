@@ -1,0 +1,36 @@
+{
+  "cutoff": 8.0,
+  "neighbors": 12,
+  "alignn_layers": 2,
+  "gcn_layers": 2,
+  "hidden": 128,
+  "embedding": 64,
+  "head_hidden": 64,
+  "dropout": 0.1,
+  "huber_delta": 0.2,
+  "target": "raw",
+  "epochs": 80,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "seed": 0,
+  "members": {
+    "huber": {},
+    "huber_log": {
+      "target": "log"
+    },
+    "huber_256": {
+      "hidden": 256
+    }
+  },
+  "mace": {
+    "model": "medium",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 200,
+    "weight": 0.5
+  }
+}
