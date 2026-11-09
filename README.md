@@ -1,10 +1,11 @@
 
 ```
 predict_tc_main/
-├── config.json          all model / training hyperparameters
-├── tc_model.ipynb       Colab notebook: trains the model and evaluates it on the test split
-├── README.md            this file
-├── predict_tc_main.zip  everything above bundled for Colab (has a predict_tc_main/ root folder)
+├── config.json           all model / training hyperparameters
+├── tc_model.ipynb        Colab notebook: trains the model and evaluates it on the test split
+├── README.md             this file
+├── predict_tc_main.zip   everything above bundled for Colab (has a predict_tc_main/ root folder)
+├── external_compouns.zip compounds out of dataset
 ├── data/
     ├── tc_data.json.gz   1,915 consolidated hydride records, each with Tc
     └── groups.json.gz    5-fold split for cross-validation
